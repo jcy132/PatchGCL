@@ -5,5 +5,18 @@ Link: https://arxiv.org/abs/2312.08223
 
 ![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/af5ed888-cc62-4657-b348-bda295398f99)
 
+### Cite
+```
+@article{jung2023patch,
+  title={Patch-wise Graph Contrastive Learning for Image Translation},
+  author={Jung, Chanyong and Kwon, Gihyun and Ye, Jong Chul},
+  journal={arXiv preprint arXiv:2312.08223},
+  year={2023}
+}
+```
 
 Code will be released soon.
+
+
+### Acknowledgement
+Our source code is based on the official implementation of [CUT](https://github.com/taesungp/contrastive-unpaired-translation). 
