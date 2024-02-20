@@ -15,7 +15,13 @@ Link: https://arxiv.org/abs/2312.08223
 }
 ```
 
-Code will be released soon.
+* Refer the following command for training:
+```
+python train.py --name [folder-name] --dataroot [path-to-data] \
+--lambda_GNN 0.1 --num_hop 2 --gnn_idt --nonzero_th 0.1 \
+--pooling_num 1 --pooling_ratio '1,0.5' --down_scale 4 \
+--gpu_ids 0
+```
 
 
 ### Acknowledgement
