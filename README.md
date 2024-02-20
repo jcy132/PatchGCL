@@ -19,4 +19,4 @@ Code will be released soon.
 
 
 ### Acknowledgement
-Our source code is based on the official implementation of [CUT](https://github.com/taesungp/contrastive-unpaired-translation). 
+Our source code is based on the official implementation of [HnegSRC](https://github.com/jcy132/Hneg_SRC). 
