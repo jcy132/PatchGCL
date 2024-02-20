@@ -4,6 +4,9 @@
 Link: https://arxiv.org/abs/2312.08223
 
 ![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/21405dac-6579-46f9-8788-c3787cb97757)
-![method](https://github.com/jcy132/PatchGCL/assets/52989204/948eab18-6459-4342-98cb-eac287a6abc3)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/52989204/948eab18-6459-4342-98cb-eac287a6abc3.jpg" width="900"/>
+</p> 
 
 Code will be released soon.
