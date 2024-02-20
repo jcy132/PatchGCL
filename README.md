@@ -5,6 +5,14 @@ Link: https://arxiv.org/abs/2312.08223
 
 ![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/af5ed888-cc62-4657-b348-bda295398f99)
 
+* Refer the following command for training:
+```
+python train.py --name [folder-name] --dataroot [path-to-data] \
+--lambda_GNN 0.1 --num_hop 2 --gnn_idt --nonzero_th 0.1 \
+--pooling_num 1 --pooling_ratio '1,0.5' --down_scale 4 \
+--gpu_ids 0
+```
+
 ### Cite
 ```
 @article{jung2023patch,
@@ -14,15 +22,6 @@ Link: https://arxiv.org/abs/2312.08223
   year={2023}
 }
 ```
-
-* Refer the following command for training:
-```
-python train.py --name [folder-name] --dataroot [path-to-data] \
---lambda_GNN 0.1 --num_hop 2 --gnn_idt --nonzero_th 0.1 \
---pooling_num 1 --pooling_ratio '1,0.5' --down_scale 4 \
---gpu_ids 0
-```
-
 
 ### Acknowledgement
 Our source code is based on the official implementation of [HnegSRC](https://github.com/jcy132/Hneg_SRC). 
