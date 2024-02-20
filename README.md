@@ -13,6 +13,12 @@ python train.py --name [folder-name] --dataroot [path-to-data] \
 --gpu_ids 0
 ```
 
+* For evaluation (ex. horse2zebra dataset):
+```
+python test.py --dataroot [path-to-dataset] --name [experiment-name] --CUT_mode CUT --phase test --epoch [epoch-for-test]
+python -m pytorch_fid [path-to-output] [path-to-input]
+```
+
 ### Cite
 ```
 @article{jung2023patch,
