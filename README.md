@@ -12,7 +12,7 @@ python train.py --name [folder-name] --dataroot [path-to-data] \
 --pooling_num 1 --pooling_ratio '1,0.5' --down_scale 4 \
 --gpu_ids 0
 ```
-* For evaluation (ex. horse2zebra dataset):
+* For evaluation:
 ```
 python test.py --dataroot [path-to-dataset] --name [experiment-name] \
 --CUT_mode CUT --phase test --epoch [epoch-for-test] --num_test [test-size]
