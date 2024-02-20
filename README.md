@@ -5,7 +5,7 @@ Link: https://arxiv.org/abs/2312.08223
 
 ![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/af5ed888-cc62-4657-b348-bda295398f99)
 
-* Refer the following command for training:
+* Refer the following command for training (ex. horse2zebra dataset):
 ```
 python train.py --name [folder-name] --dataroot [path-to-data] \
 --lambda_GNN 0.1 --num_hop 2 --gnn_idt --nonzero_th 0.1 \
