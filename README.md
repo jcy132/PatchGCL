@@ -32,4 +32,4 @@ python -m pytorch_fid [path-to-output] [path-to-input]
 ```
 
 ### Acknowledgement
-Our source code is based on the official implementation of [HnegSRC](https://github.com/jcy132/Hneg_SRC). 
+Our source code is based on the official implementation of [HnegSRC](https://github.com/jcy132/Hneg_SRC) and [CUT](https://github.com/taesungp/contrastive-unpaired-translation). 
