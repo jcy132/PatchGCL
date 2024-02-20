@@ -15,7 +15,9 @@ python train.py --name [folder-name] --dataroot [path-to-data] \
 
 * For evaluation (ex. horse2zebra dataset):
 ```
-python test.py --dataroot [path-to-dataset] --name [experiment-name] --CUT_mode CUT --phase test --epoch [epoch-for-test]
+python test.py --dataroot [path-to-dataset] --name [experiment-name] \
+--CUT_mode CUT --phase test --epoch [epoch-for-test] --num_test [test-size]
+
 python -m pytorch_fid [path-to-output] [path-to-input]
 ```
 
