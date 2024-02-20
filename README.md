@@ -3,6 +3,7 @@
 
 Link: https://arxiv.org/abs/2312.08223
 
-![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/35e06b43-523d-4eea-b8bb-a125b4882191)
+![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/21405dac-6579-46f9-8788-c3787cb97757)
+![method](https://github.com/jcy132/PatchGCL/assets/52989204/948eab18-6459-4342-98cb-eac287a6abc3)
 
 Code will be released soon.
