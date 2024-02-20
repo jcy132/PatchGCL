@@ -4,16 +4,14 @@
 Link: https://arxiv.org/abs/2312.08223
 
 ![gcl](https://github.com/jcy132/PatchGCL/assets/52989204/af5ed888-cc62-4657-b348-bda295398f99)
-
-* For training (ex. horse2zebra dataset):
+* We provide the pretrained model: [horse-to-zebra](https://drive.google.com/file/d/1T-gaGGrg7mVytUmlCeZ-ExbrIa9D8iCF/view?usp=sharing)
+* For the training from scratch (ex. horse2zebra dataset):
 ```
 python train.py --name [folder-name] --dataroot [path-to-data] \
 --lambda_GNN 0.1 --num_hop 2 --gnn_idt --nonzero_th 0.1 \
 --pooling_num 1 --pooling_ratio '1,0.5' --down_scale 4 \
 --gpu_ids 0
 ```
-* We provide the pretrained model: [horse-to-zebra](https://drive.google.com/file/d/1T-gaGGrg7mVytUmlCeZ-ExbrIa9D8iCF/view?usp=sharing)
-
 * For evaluation (ex. horse2zebra dataset):
 ```
 python test.py --dataroot [path-to-dataset] --name [experiment-name] \
